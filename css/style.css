@@ -1,0 +1,10 @@
+section {
+    margin-top: 10rem;
+    background-color: rgb(182, 168, 147);
+    display: flex;
+    justify-content: center;
+}
+form input, label{
+    font: 3rem sans-serif;
+    font-color: rgb(27, 26, 25);
+}
