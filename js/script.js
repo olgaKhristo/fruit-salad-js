@@ -10,6 +10,9 @@ const addFruit = fruit => {
     const li = document.createElement('li')
     li.textContent = fruit;
     fruitList.appendChild(li)
+    li.addEventListener('click', () => {
+        fruitList.removeChild(li)
+    })
 }
 
 
