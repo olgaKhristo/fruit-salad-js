@@ -1,2 +1,3 @@
-const x = 42
-export default x
+// const x = 42
+// // export default x
+// module.exports = x
